@@ -1,0 +1,38 @@
+{
+    "[c]": {
+        "editor.tabSize": 8
+    },
+    "[cpp]": {
+        "editor.tabSize": 4
+    },
+   "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Microsoft, BreakBeforeBraces: Linux,}",
+    // 主题
+    "workbench.colorTheme": "One Dark Pro",
+    // vim
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j", "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "editor.fontSize": 20,
+    "workbench.iconTheme": "vscode-icons",
+    "markdown-preview-enhanced.previewTheme": "one-dark.css",
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
+    "workbench.list.openMode": "doubleClick",
+}
+
+
+// in snippets cpp.json
+	"ACM Header": {
+		"prefix": "acmh",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;"
+		],
+		"description": "ACM Header"
+	}
